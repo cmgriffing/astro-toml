@@ -1,0 +1,31 @@
+{
+  "name": "astro-toml",
+  "version": "0.0.1",
+  "description": "A simple TOML parser to allow usage of TOML as a collection in Astro.",
+  "repository": "https://github.com/cmgriffing/astro-toml",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "astro-integration"
+  ],
+  "author": "cmgriffing@gmail.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": "^2.10.12"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/html-escaper": "^3.0.0",
+    "@types/iarna__toml": "^2.0.2",
+    "@types/node": "^20.5.3",
+    "astro": "^2.10.12",
+    "typescript": "^5.1.6"
+  }
+}
