@@ -30,9 +30,9 @@ pnpm add astro-toml
 
 Next, add the integration to your `astro.config.*` file. There is currently no set of configuration options.
 
-```
-import { defineConfig } from 'astro/config';
-import toml from 'astro-toml';
+```typescript
+import { defineConfig } from "astro/config";
+import toml from "astro-toml";
 
 export default defineConfig({
   // ...
