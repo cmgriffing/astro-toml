@@ -1,10 +1,11 @@
 {
   "name": "astro-toml",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple TOML parser to allow usage of TOML as a collection in Astro.",
   "repository": "https://github.com/cmgriffing/astro-toml",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist",
     "src",
